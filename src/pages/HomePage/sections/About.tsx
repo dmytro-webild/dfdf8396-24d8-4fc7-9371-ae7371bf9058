@@ -17,7 +17,7 @@ type AboutTextFillProps = {
 
 const AboutInline = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const words = "A Different Standard of Living.: Building Homes that Endure for Generations.".split(" ");
+  const words = "From Sketch To Reality: Every  Line Matters".split(" ");
 
   const { scrollYProgress } = useScroll({
     target: sectionRef,
