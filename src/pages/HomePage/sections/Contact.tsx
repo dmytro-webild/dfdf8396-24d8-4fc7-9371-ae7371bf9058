@@ -14,7 +14,7 @@ export default function ContactSection(): React.JSX.Element {
         textarea={{"name":"message","placeholder":"Share details about your property, architectural vision, or build scope...","rows":4}}
         buttonText="Submit Project Inquiry"
         footerText="Ready to begin your architectural journey? Speak directly with our team."
-        footerLink={{"href":"mailto:info@roderickbuilders.com","text":"Email Roderick Builders","imageSrc":"https://storage.googleapis.com/webild/default/templates/marbella/contact/avatar.webp"}}
+        footerLink={{"href":"mailto:info@roderickbuilders.com","text":"Email Roderick Builders","imageSrc":"https://storage.googleapis.com/webild/users/user_3LCsrhmWf7q31NAHyCgwx4Bnz2d/uploaded-1793024588044-p8zrbwo7.png"}}
       />
             </div>
   );
