@@ -45,9 +45,13 @@ const NavbarFullscreenStatic = ({ logo, navItems, ctaButton }: NavbarFullscreenS
       <div className="absolute z-10 top-5 left-1/2 -translate-x-1/2 flex items-center justify-between w-content-width pointer-events-auto">
         <a
           href="/"
-          className="text-xl font-medium text-background"
+          className="text-xl md:text-2xl font-serif tracking-wider text-background font-normal"
         >
-          {logo}
+          {logo.startsWith("http") || logo.startsWith("/") ? (
+            <img src={logo} alt="Roderick Builders" className="h-8 md:h-10 w-auto object-contain" />
+          ) : (
+            logo
+          )}
         </a>
 
         <div className="flex items-center gap-2 xl:gap-3 2xl:gap-4">
