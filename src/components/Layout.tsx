@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import { StyleProvider } from '@/components/ui/StyleProvider';
 import SiteBackgroundSlot from '@/components/ui/SiteBackgroundSlot';
 import NavbarFullscreenStatic from "@/components/ui/NavbarFullscreenStatic";
-import FooterBasic from "@/components/sections/footer/FooterBasic";
+import FooterWithLogo from "@/components/custom/FooterWithLogo";
 
 export default function Layout() {
   return (
@@ -22,7 +22,7 @@ export default function Layout() {
       <main className="flex-grow">
         <Outlet />
       </main>
-      <FooterBasic
+      <FooterWithLogo
         columns={[
           {
             title: "Projects",
