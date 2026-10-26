@@ -72,13 +72,23 @@ const HeroInline = () => {
       if (!video) return;
 
       const setupScrollTrigger = () => {
+        const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+        if (isMobile) {
+          if (video) {
+            video.playsInline = true;
+            video.muted = true;
+            video.play().catch(() => {});
+          }
+          return;
+        }
+
         ScrollTrigger.create({
           trigger: sectionRef.current,
           start: "top top",
           end: "bottom bottom",
           scrub: 0.5,
           onUpdate: (self) => {
-            if (video.duration) {
+            if (video && video.duration) {
               video.currentTime = video.duration * self.progress;
             }
           },
