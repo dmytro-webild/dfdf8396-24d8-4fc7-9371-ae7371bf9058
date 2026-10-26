@@ -153,12 +153,8 @@ const ContactInline = () => {
               <p className="text-base text-white/75">{"Ready to begin your architectural journey? Speak directly with our team."}</p>
               <a
                 href={footerLink.href}
-                className="flex items-center gap-2 rounded-full bg-primary-cta-text/15 backdrop-blur-sm p-1.5 pr-5 text-sm font-medium text-white whitespace-nowrap transition-colors hover:bg-primary-cta-text/25"
+                className="flex items-center justify-center rounded-full bg-primary-cta-text/15 backdrop-blur-sm px-5 py-2.5 text-sm font-medium text-white whitespace-nowrap transition-colors hover:bg-primary-cta-text/25"
               >
-                <ImageOrVideo
-                  imageSrc={footerLink.imageSrc}
-                  className="h-8 w-8 rounded-full object-cover"
-                />
                 {footerLink.text}
               </a>
             </div>
