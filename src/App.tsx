@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { ReactLenis } from 'lenis/react'
 import { routes } from './routes'
 import Layout from './components/Layout'
+import TeamMemberDetailPage from './pages/TeamMemberDetailPage';
 
 const pages = import.meta.glob('./pages/*.tsx')
 
@@ -225,7 +226,8 @@ function App() {
               })}
             </Route>
             <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
+                <Route path="/team/:slug" element={<TeamMemberDetailPage />} />
+    </Routes>
         </Suspense>
       </RenderErrorBoundary>
     </ReactLenis>
