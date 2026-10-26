@@ -7,15 +7,15 @@
 
 :root {
   /* @colorThemes/lightTheme/warm-luxury */
-  --background: #faf8f5;
-  --card: #ffffff;
-  --foreground: #1a1a1a;
-  --primary-cta: #1a1a1a;
-  --primary-cta-text: #faf8f5;
-  --secondary-cta: #f0ece6;
-  --secondary-cta-text: #1a1a1a;
-  --accent: #c9a96e;
-  --background-accent: #f0ece6;
+  --background: #f6f0e9;
+  --card: #efe7dd;
+  --foreground: #2b180a;
+  --primary-cta: #2b180a;
+  --primary-cta-text: #f6f0e9;
+  --secondary-cta: #efe7dd;
+  --secondary-cta-text: #2b180a;
+  --accent: #94877c;
+  --background-accent: #afa094;
 
   /* @layout/border-radius/soft */
   --radius: 0.75rem;
