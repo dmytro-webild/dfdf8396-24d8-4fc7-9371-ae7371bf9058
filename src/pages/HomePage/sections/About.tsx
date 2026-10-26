@@ -10,7 +10,7 @@ export default function AboutSection(): React.JSX.Element {
               <AboutTextFill
         textAnimation="fade"
         title="From Sketch to Reality: Building Homes that Endure for Generations."
-        imageSrc="https://storage.googleapis.com/webild/default/templates/marbella/about/statement.webp"
+        imageSrc="https://storage.googleapis.com/webild/users/user_3LCsrhmWf7q31NAHyCgwx4Bnz2d/uploaded-1792986853043-ua5s40rc.png"
         description="Every Roderick Builders residence begins as an inspired concept and comes to life through meticulous engineering and master craftsmanship."
       />
             </div>
