@@ -15,7 +15,7 @@ export default function HeroSection(): React.JSX.Element {
         description="Architecturally driven homes, built with intention. From Malibu’s coastline to the mountains of Park City, we bring architects, craftsmanship, and construction together to create homes that feel as extraordinary as the lives lived in them."
         primaryButton={{"text":"Explore Our Projects","href":"#properties"}}
         secondaryButton={{"href":"#contact","text":"Start Your Build"}}
-        bottomText="Roderick Builders: Master craft, architectural vision, and bespoke luxury construction."
+        bottomText="Roderick Builders."
       />
             </div>
   );
