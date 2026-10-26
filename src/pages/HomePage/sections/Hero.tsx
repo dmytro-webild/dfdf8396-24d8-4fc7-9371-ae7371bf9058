@@ -10,7 +10,6 @@ export default function HeroSection(): React.JSX.Element {
               <HeroVideoScroll
         textAnimation="fade"
         videoSrc="https://storage.googleapis.com/webild/default/templates/marbella/hero/hero.mp4"
-        tag="Roderick Builders | Legacy Beyond Luxury"
         title="A Different Standard of Living."
         description="Architecturally driven homes, built with intention. From Malibu’s coastline to the mountains of Park City, we bring architects, craftsmanship, and construction together to create homes that feel as extraordinary as the lives lived in them."
         primaryButton={{"text":"Explore Our Projects","href":"#properties"}}
