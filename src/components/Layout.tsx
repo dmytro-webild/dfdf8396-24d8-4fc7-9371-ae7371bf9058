@@ -10,13 +10,14 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarFullscreenStatic
-                logo="Le Cercle"
+                logo="RODERICK BUILDERS"
                 navItems={[
-                  { name: "Properties", href: "#properties" },
-                  { name: "About", href: "#about" },
+                  { name: "Projects", href: "#properties" },
+                  { name: "About Us", href: "#about" },
+                  { name: "Services", href: "#about" },
                   { name: "Contact", href: "#contact" },
                 ]}
-                ctaButton={{ text: "Book a Tour", href: "#contact" }}
+                ctaButton={{ text: "Start Your Build", href: "#contact" }}
               />
       <main className="flex-grow">
         <Outlet />
@@ -24,44 +25,43 @@ export default function Layout() {
       <FooterBasic
                 columns={[
                   {
-                    title: "Properties",
+                    title: "Projects",
                     items: [
-                      { label: "Villas", href: "#properties" },
-                      { label: "Apartments", href: "#" },
-                      { label: "Penthouses", href: "#" },
-                      { label: "New Developments", href: "#" },
+                      { label: "Custom Estates", href: "#properties" },
+                      { label: "Modern Architecture", href: "#properties" },
+                      { label: "Luxury Renovations", href: "#properties" },
+                      { label: "Waterfront Residence", href: "#properties" },
                     ],
                   },
                   {
                     title: "Services",
                     items: [
-                      { label: "Property Search", href: "#" },
-                      { label: "Legal Assistance", href: "#" },
-                      { label: "Interior Design", href: "#" },
-                      { label: "Property Management", href: "#" },
+                      { label: "Custom Home Building", href: "#about" },
+                      { label: "Design-Build Collaboration", href: "#about" },
+                      { label: "Architectural Construction", href: "#about" },
+                      { label: "Estate Management", href: "#about" },
                     ],
                   },
                   {
-                    title: "Locations",
+                    title: "Philosophy",
                     items: [
-                      { label: "Golden Mile", href: "#" },
-                      { label: "Puerto Banús", href: "#" },
-                      { label: "Sierra Blanca", href: "#" },
-                      { label: "La Zagaleta", href: "#" },
+                      { label: "Sketch to Reality", href: "#about" },
+                      { label: "Architectural Precision", href: "#about" },
+                      { label: "Legacy Quality", href: "#about" },
+                      { label: "Uncompromised Craft", href: "#about" },
                     ],
                   },
                   {
                     title: "Company",
                     items: [
-                      { label: "About Us", href: "#" },
-                      { label: "Contact", href: "#contact" },
-                      { label: "Privacy Policy", href: "#" },
-                      { label: "Terms of Service", href: "#" },
+                      { label: "About Roderick Builders", href: "#about" },
+                      { label: "Our Portfolio", href: "#properties" },
+                      { label: "Contact Us", href: "#contact" },
                     ],
                   },
                 ]}
-                leftText="© 2026 Le Cercle. All rights reserved."
-                rightText="Marbella, Costa del Sol"
+                leftText="© 2026 Roderick Builders. Legacy Beyond Luxury."
+                rightText="Master Custom Home Builders"
               />
     </StyleProvider>
   );
