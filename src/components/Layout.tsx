@@ -10,7 +10,7 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarFullscreenStatic
-        logo="https://storage.googleapis.com/webild/users/user_3LCsrhmWf7q31NAHyCgwx4Bnz2d/uploaded-1792986627795-cpmago5y.png"
+        logo="https://storage.googleapis.com/webild/users/user_3LCsrhmWf7q31NAHyCgwx4Bnz2d/uploaded-1793022199668-yt3jgv64.png"
         navItems={[
           { name: "Projects", href: "#properties" },
           { name: "About Us", href: "#about" },
