@@ -15,7 +15,7 @@ export default function HeroSection(): React.JSX.Element {
         description="Bespoke luxury home building and architectural construction. Bringing extraordinary visions from sketch to reality with uncompromised craftsmanship."
         primaryButton={{"text":"Explore Our Projects","href":"#properties"}}
         secondaryButton={{"href":"#contact","text":"Start Your Build"}}
-        bottomText="Roderick Builders — Master craft, architectural vision, and bespoke luxury construction."
+        bottomText="Roderick Builders: Master craft, architectural vision, and bespoke luxury construction."
       />
             </div>
   );
