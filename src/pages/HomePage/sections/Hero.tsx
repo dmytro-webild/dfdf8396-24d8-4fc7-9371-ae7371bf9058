@@ -12,7 +12,7 @@ export default function HeroSection(): React.JSX.Element {
         videoSrc="https://storage.googleapis.com/webild/default/templates/marbella/hero/hero.mp4"
         tag="Roderick Builders | Legacy Beyond Luxury"
         title="From Sketch to Reality"
-        description="Bespoke luxury home building and architectural construction. Bringing extraordinary visions from sketch to reality with uncompromised craftsmanship."
+        description="Architecturally driven homes, built with intention. From Malibu’s coastline to the mountains of Park City, we bring architects, craftsmanship, and construction together to create homes that feel as extraordinary as the lives lived in them."
         primaryButton={{"text":"Explore Our Projects","href":"#properties"}}
         secondaryButton={{"href":"#contact","text":"Start Your Build"}}
         bottomText="Roderick Builders: Master craft, architectural vision, and bespoke luxury construction."
