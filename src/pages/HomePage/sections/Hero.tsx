@@ -8,7 +8,7 @@ export default function HeroSection(): React.JSX.Element {
   return (
     <div id="hero" data-section="hero">
       <HeroVideoScroll
-        tag="Legacy Beyond Luxury"
+        tag=""
         textAnimation="fade"
         videoSrc="https://storage.googleapis.com/webild/default/templates/marbella/hero/hero.mp4"
         title="A Different Standard of Living."
