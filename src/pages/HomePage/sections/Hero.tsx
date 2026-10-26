@@ -7,7 +7,8 @@ import HeroVideoScroll from "@/components/sections/hero/HeroVideoScroll";
 export default function HeroSection(): React.JSX.Element {
   return (
     <div id="hero" data-section="hero">
-              <HeroVideoScroll
+      <HeroVideoScroll
+        tag="Legacy Beyond Luxury"
         textAnimation="fade"
         videoSrc="https://storage.googleapis.com/webild/default/templates/marbella/hero/hero.mp4"
         title="A Different Standard of Living."
@@ -16,6 +17,6 @@ export default function HeroSection(): React.JSX.Element {
         secondaryButton={{"href":"#contact","text":"Start Your Build"}}
         bottomText="Roderick Builders."
       />
-            </div>
+    </div>
   );
 }
